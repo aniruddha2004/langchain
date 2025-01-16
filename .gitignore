@@ -1,0 +1,19 @@
+# Exclude virtual environment
+myenv/
+
+# Exclude database files
+trial_db/
+*.sqlite3
+
+# Exclude environment variables
+.env
+
+# Exclude Python bytecode
+__pycache__/
+*.pyc
+
+# Exclude log files
+*.log
+
+# Exclude Firebase service account credentials
+assistantnode-*.json
