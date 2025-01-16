@@ -16,4 +16,4 @@ __pycache__/
 *.log
 
 # Exclude Firebase service account credentials
-assistantnode-*.json
+assistantnode-79573-firebase-adminsdk-oz9yv-d8444ab22a.json
