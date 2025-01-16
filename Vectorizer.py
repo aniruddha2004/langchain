@@ -8,8 +8,6 @@ from langchain.text_splitter import CharacterTextSplitter
 
 load_dotenv()
 
-os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
-
 embed = MistralAIEmbeddings(
     model="mistral-embed",
     api_key=os.getenv("MISTRAL_API_KEY"),
